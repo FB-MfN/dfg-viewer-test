@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets
+    xmlns:mets="http://www.loc.gov/METS/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:dv="http://dfg-viewer.de/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd
+                        http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd"
+    OBJID="10.5072/zenodo.647776">
+
+  <!-- ===================== Header ===================== -->
+  <mets:metsHdr CREATEDATE="2026-11-23T19:37:56Z" LASTMODDATE="2026-11-23T19:37:56Z">
+    <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <mets:name>Museum für Naturkunde Berlin</mets:name>
+    </mets:agent>
+    <mets:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+      <mets:name>Zenodo (Sandbox)</mets:name>
+    </mets:agent>
+  </mets:metsHdr>
+
+  <!-- ===================== Deskriptive Metadaten ===================== -->
+  <mets:dmdSec ID="dmd_1">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods version="3.7">
+          <mods:titleInfo>
+            <mods:title>Index Petrofactorum - IIIF Test dataset</mods:title>
+          </mods:titleInfo>
+          <mods:name type="corporate">
+            <mods:namePart>Museum für Naturkunde</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="code" authority="marcrelator">cre</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:typeOfResource>still image</mods:typeOfResource>
+          <mods:genre authority="local">dataset</mods:genre>
+          <mods:originInfo eventType="publication">
+            <mods:publisher>Zenodo</mods:publisher>
+            <mods:dateIssued encoding="iso8601" keyDate="yes">2026-11-23</mods:dateIssued>
+          </mods:originInfo>
+          <mods:language>
+            <!-- ERFUNDEN: Sprache nicht in den Quelldaten -->
+            <mods:languageTerm type="code" authority="iso639-2b">lat</mods:languageTerm>
+          </mods:language>
+          <mods:physicalDescription>
+            <mods:extent>2 Scans</mods:extent>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:abstract>IIIF - Test</mods:abstract>
+          <mods:identifier type="doi">10.5072/zenodo.647776</mods:identifier>
+          <mods:identifier type="url">https://sandbox.zenodo.org/records/647776</mods:identifier>
+          <mods:location>
+            <!-- ERFUNDEN: Standort/Institution -->
+            <mods:physicalLocation>Museum für Naturkunde Berlin</mods:physicalLocation>
+            <mods:url access="object in context">https://sandbox.zenodo.org/records/647776</mods:url>
+          </mods:location>
+          <mods:relatedItem type="host">
+            <mods:identifier type="doi">10.5072/zenodo.647775</mods:identifier>
+          </mods:relatedItem>
+          <mods:accessCondition type="use and reproduction"
+              xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</mods:accessCondition>
+          <mods:recordInfo>
+            <mods:recordIdentifier source="zenodo">647776</mods:recordIdentifier>
+            <mods:recordCreationDate encoding="iso8601">2026-11-23</mods:recordCreationDate>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+
+  <!-- ===================== Administrative Metadaten ===================== -->
+  <mets:amdSec ID="amd_1">
+    <mets:rightsMD ID="rights_1">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" MIMETYPE="text/xml">
+        <mets:xmlData>
+          <dv:rights>
+            <dv:owner>Museum für Naturkunde Berlin</dv:owner>
+            <!-- ERFUNDEN: Logo-URL (Platzhalter, bitte ersetzen) -->
+            <dv:ownerLogo>https://www.museumfuernaturkunde.berlin/sites/default/files/logo_mfn.png</dv:ownerLogo>
+            <dv:ownerSiteURL>https://www.museumfuernaturkunde.berlin/</dv:ownerSiteURL>
+            <!-- ERFUNDEN: Kontaktadresse (Platzhalter, bitte prüfen) -->
+            <dv:ownerContact>mailto:info@mfn.berlin</dv:ownerContact>
+            <dv:license>cc-by</dv:license>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="digiprov_1">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVLINKS" MIMETYPE="text/xml">
+        <mets:xmlData>
+          <dv:links>
+            <dv:reference linktext="Zenodo">https://sandbox.zenodo.org/records/647776</dv:reference>
+            <dv:reference linktext="DOI">https://handle.test.datacite.org/10.5072/zenodo.647776</dv:reference>
+            <dv:presentation>https://sandbox.zenodo.org/records/647776</dv:presentation>
+            <dv:iiif>https://sandbox.zenodo.org/api/iiif/record:647776/manifest</dv:iiif>
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+
+  <!-- ===================== Dateisektion ===================== -->
+  <mets:fileSec>
+    <!-- Anzeigebilder: JPEG über die IIIF-Bild-API (TIFF ist im Viewer nicht darstellbar) -->
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="file_default_1" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://sandbox.zenodo.org/api/iiif/record:647776:0001_coll.mfn-berlin.de_u_d74ebe__000021.tif/full/%5E1200,/0/default.jpg"/>
+      </mets:file>
+      <mets:file ID="file_default_2" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://sandbox.zenodo.org/api/iiif/record:647776:0002_coll.mfn-berlin.de_u_d74ebe__000042.tif/full/%5E1200,/0/default.jpg"/>
+      </mets:file>
+    </mets:fileGrp>
+
+    <mets:fileGrp USE="THUMBS">
+      <mets:file ID="file_thumbs_1" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://sandbox.zenodo.org/api/iiif/record:647776:0001_coll.mfn-berlin.de_u_d74ebe__000021.tif/full/%5E250,/0/default.jpg"/>
+      </mets:file>
+      <mets:file ID="file_thumbs_2" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://sandbox.zenodo.org/api/iiif/record:647776:0002_coll.mfn-berlin.de_u_d74ebe__000042.tif/full/%5E250,/0/default.jpg"/>
+      </mets:file>
+    </mets:fileGrp>
+
+    <!-- Original-TIFFs: nur Archiv/Nachweis, werden vom DFG-Viewer nicht ausgewertet -->
+    <mets:fileGrp USE="ORIGINAL">
+      <mets:file ID="file_orig_1" MIMETYPE="image/tiff" SIZE="31264512"
+                 CHECKSUM="6af9db7fd3878f0aa1e50c359399f9b0" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://sandbox.zenodo.org/api/records/647776/files/0001_coll.mfn-berlin.de_u_d74ebe__000021.tif/content"/>
+      </mets:file>
+      <mets:file ID="file_orig_2" MIMETYPE="image/tiff" SIZE="33279396"
+                 CHECKSUM="fba96f4d459779dca77af7817cc3a69e" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://sandbox.zenodo.org/api/records/647776/files/0002_coll.mfn-berlin.de_u_d74ebe__000042.tif/content"/>
+      </mets:file>
+    </mets:fileGrp>
+
+    <!-- Begleitende XML-Dateien (Inhalt unbekannt; nur wenn ALTO, nach USE="FULLTEXT" verschieben) -->
+    <mets:fileGrp USE="SOURCE_XML">
+      <mets:file ID="file_xml_1" MIMETYPE="text/xml" SIZE="9419"
+                 CHECKSUM="f065dc201a4b01233a7c0d8c2b8c3d34" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://sandbox.zenodo.org/api/records/647776/files/0001_coll.mfn-berlin.de_u_d74ebe__000021.xml/content"/>
+      </mets:file>
+      <mets:file ID="file_xml_2" MIMETYPE="text/xml" SIZE="19216"
+                 CHECKSUM="1a636d62eb383925191e211fdcaef388" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://sandbox.zenodo.org/api/records/647776/files/0002_coll.mfn-berlin.de_u_d74ebe__000042.xml/content"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+
+  <!-- ===================== Logische Struktur ===================== -->
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ID="logical_1" TYPE="monograph"
+              LABEL="Index Petrofactorum - IIIF Test dataset"
+              DMDID="dmd_1" ADMID="amd_1"
+              CONTENTIDS="https://handle.test.datacite.org/10.5072/zenodo.647776"/>
+  </mets:structMap>
+
+  <!-- ===================== Physische Struktur ===================== -->
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div ID="physical_1" TYPE="physSequence">
+      <mets:div ID="physical_2" TYPE="page" ORDER="1" ORDERLABEL="[1]" LABEL="u_d74ebe__000021">
+        <mets:fptr FILEID="file_default_1"/>
+        <mets:fptr FILEID="file_thumbs_1"/>
+        <mets:fptr FILEID="file_orig_1"/>
+        <mets:fptr FILEID="file_xml_1"/>
+      </mets:div>
+      <mets:div ID="physical_3" TYPE="page" ORDER="2" ORDERLABEL="[2]" LABEL="u_d74ebe__000042">
+        <mets:fptr FILEID="file_default_2"/>
+        <mets:fptr FILEID="file_thumbs_2"/>
+        <mets:fptr FILEID="file_orig_2"/>
+        <mets:fptr FILEID="file_xml_2"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+
+  <!-- ===================== Verknüpfung ===================== -->
+  <mets:structLink>
+    <mets:smLink xlink:from="logical_1" xlink:to="physical_1"/>
+    <mets:smLink xlink:from="logical_1" xlink:to="physical_2"/>
+    <mets:smLink xlink:from="logical_1" xlink:to="physical_3"/>
+  </mets:structLink>
+
+</mets:mets>
